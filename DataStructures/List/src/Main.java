@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        List<Integer> list = new List<Integer>(new Integer[]{1, 2, 3, 4});
+        List<Integer> list = new List<>(new Integer[]{1, 2, 3, 4});
 
         list.pushBack(5);
         list.pushBack(10);
